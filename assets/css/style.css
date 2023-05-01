@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+.bg-transparente{
+    background-color: transparent !important;
+    --bs-bg-opacity: 1;
+}
+hr{
+    color: gray;
+    height: 2px;
+}
+#quienessomos p{
+    text-align: justify;
+}
+#destacados img{
+    height: 110px;
+}
+#destacados img{
+    height: 102px;
+}
+.card-header img{
+    width: 20px;
+    height: 20px;
+}
+.card-header, .card-footer, #destacados .card-body, footer{
+    background-color: #0dcaf0;
+    color: white;
+}
+#destacado img{
+    height: 100px;
+}
+
+footer{
+    height: 100px;
+    width: auto;
+}
+footer li{
+    margin: 0 4px;
+
+}
+
+@media screen and (max-width: 575px) {
+    #quienessomos{
+        display:none;
+    }
+}
+
